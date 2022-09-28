@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="251.178" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\admin\.m2\repository\webdriver\chromedriver\win32\105.0.5195.52\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\admin\eclipse-workspace\Training.insuranceCalculator\target\test-classes;C:\Users\admin\eclipse-workspace\Training.insuranceCalculator\target\classes;C:\Users\admin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-6\selenium-java-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-6\selenium-api-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-6\selenium-chrome-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\admin\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-6\selenium-chromium-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-6\selenium-devtools-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-6\selenium-http-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-6\selenium-json-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-6\selenium-edge-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-6\selenium-edgehtml-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-6\selenium-firefox-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-6\selenium-firefox-xpi-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-6\selenium-ie-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-6\selenium-opera-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-6\selenium-remote-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\4.5.0\okhttp-4.5.0.jar;C:\Users\admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.70\kotlin-stdlib-1.3.70.jar;C:\Users\admin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\2.6.0\okio-2.6.0.jar;C:\Users\admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.70\kotlin-stdlib-common-1.3.70.jar;C:\Users\admin\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\io\grpc\grpc-context\1.28.0\grpc-context-1.28.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.49.Final\netty-buffer-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.49.Final\netty-common-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http\4.1.49.Final\netty-codec-http-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.49.Final\netty-codec-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final-linux-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final-osx-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.49.Final\netty-transport-native-unix-common-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.49.Final\netty-transport-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.49.Final\netty-resolver-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\0.4.0\opentelemetry-api-0.4.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context-prop\0.4.0\opentelemetry-context-prop-0.4.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.4.0\opentelemetry-sdk-0.4.0.jar;C:\Users\admin\.m2\repository\io\projectreactor\netty\reactor-netty\0.9.6.RELEASE\reactor-netty-0.9.6.RELEASE.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http2\4.1.48.Final\netty-codec-http2-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler-proxy\4.1.48.Final\netty-handler-proxy-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\projectreactor\reactor-core\3.3.5.RELEASE\reactor-core-3.3.5.RELEASE.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.10.9\byte-buddy-1.10.9.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client\2.12.1\async-http-client-2.12.1.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.1\async-http-client-netty-utils-2.12.1.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-socks\4.1.48.Final\netty-codec-socks-4.1.48.Final.jar;C:\Users\admin\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-6\selenium-safari-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-6\selenium-support-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admin\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\admin\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\admin\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\admin\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_281\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire4949722943474396156\surefirebooter-20220927073935798_3.jar C:\Users\admin\AppData\Local\Temp\surefire4949722943474396156 2022-09-27T07-39-21_826-jvmRun1 surefire-20220927073935798_1tmp surefire_0-20220927073935798_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\admin\eclipse-workspace\Training.insuranceCalculator\target\test-classes;C:\Users\admin\eclipse-workspace\Training.insuranceCalculator\target\classes;C:\Users\admin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-6\selenium-java-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-6\selenium-api-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-6\selenium-chrome-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\admin\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-6\selenium-chromium-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-6\selenium-devtools-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-6\selenium-http-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-6\selenium-json-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-6\selenium-edge-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-6\selenium-edgehtml-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-6\selenium-firefox-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-6\selenium-firefox-xpi-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-6\selenium-ie-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-6\selenium-opera-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-6\selenium-remote-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\4.5.0\okhttp-4.5.0.jar;C:\Users\admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.70\kotlin-stdlib-1.3.70.jar;C:\Users\admin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\2.6.0\okio-2.6.0.jar;C:\Users\admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.70\kotlin-stdlib-common-1.3.70.jar;C:\Users\admin\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\io\grpc\grpc-context\1.28.0\grpc-context-1.28.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.49.Final\netty-buffer-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.49.Final\netty-common-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http\4.1.49.Final\netty-codec-http-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.49.Final\netty-codec-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.49.Final\netty-transport-native-epoll-4.1.49.Final-linux-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.49.Final\netty-transport-native-kqueue-4.1.49.Final-osx-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.49.Final\netty-transport-native-unix-common-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.49.Final\netty-transport-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.49.Final\netty-resolver-4.1.49.Final.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\0.4.0\opentelemetry-api-0.4.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context-prop\0.4.0\opentelemetry-context-prop-0.4.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.4.0\opentelemetry-sdk-0.4.0.jar;C:\Users\admin\.m2\repository\io\projectreactor\netty\reactor-netty\0.9.6.RELEASE\reactor-netty-0.9.6.RELEASE.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http2\4.1.48.Final\netty-codec-http2-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler-proxy\4.1.48.Final\netty-handler-proxy-4.1.48.Final.jar;C:\Users\admin\.m2\repository\io\projectreactor\reactor-core\3.3.5.RELEASE\reactor-core-3.3.5.RELEASE.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.10.9\byte-buddy-1.10.9.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client\2.12.1\async-http-client-2.12.1.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.1\async-http-client-netty-utils-2.12.1.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-socks\4.1.48.Final\netty-codec-socks-4.1.48.Final.jar;C:\Users\admin\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-6\selenium-safari-driver-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-6\selenium-support-4.0.0-alpha-6.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admin\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\admin\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\admin\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\admin\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_281"/>
+    <property name="basedir" value="C:\Users\admin\eclipse-workspace\Training.insuranceCalculator"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire4949722943474396156\surefirebooter-20220927073935798_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_281\lib\resources.jar;C:\Program Files\Java\jre1.8.0_281\lib\rt.jar;C:\Program Files\Java\jre1.8.0_281\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_281\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_281\lib\jce.jar;C:\Program Files\Java\jre1.8.0_281\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_281\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_281\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_281\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="C:\Users\admin\eclipse-workspace\Training.insuranceCalculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_281/bin/server;C:/Program Files/Java/jre1.8.0_281/bin;C:/Program Files/Java/jre1.8.0_281/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\admin\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_281\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="insurance_Calculate[{Insurant_Country=India, Vehicle_Annual_Mileage=100.0, Insurant_Firstname=prakash, Insurant_Lastname=NNNN, Producy_Damageinsurance=Partial Coverage, Vehicle_Date_Of_Manufacture=09/04/2001, Insurant_Hobby=Speeding,Other, Product_Start_Date=12/12/2020, priceValidation_Platinum=1379.0, Product_Optionalproduct=Euro Protection, Vehicle_Eng_Performance=666.0, Vehicle_Make=Honda, Vehicle_List_Price=888.0, priceValidation_Silver=701.0, priceValidation_Ultimate=2621.0, Inusrant_Gender=Male, TC no=1.0, Vehicle_Model=Motorcycle, Insurant_DateofBirth=12/12/1996, Insurant_Occupation=Farmer, Vehicle_No_of_Seats_Motorcycle=2.0, Vehicle_CylinderCapcity=333.0, priceValidation_Gold=238.0, TC Name=Verify Insurance  premium for Honda Motor Cycle, Insurant_Zipcode=444061.0, Product_Insurancesum=5.000.000,00, select_Option=Silver, ?=?}](1)" classname="com.insurance_calaculation_motorcycle.EndtoEnd_Test_Motorcycle" time="52.609">
+    <failure message="value is not present in dropdown for WebElement:[[ChromeDriver: chrome on WINDOWS (272ba9afd317dbf93a96ebfc41c746b1)] -&gt; id: numberofseatsmotorcycle]Value to be selected is:2.0" type="java.lang.Exception"><![CDATA[java.lang.Exception: value is not present in dropdown for WebElement:[[ChromeDriver: chrome on WINDOWS (272ba9afd317dbf93a96ebfc41c746b1)] -> id: numberofseatsmotorcycle]Value to be selected is:2.0
+	at com.reusablecomponent.Common_Methods.selectDropdownOption(Common_Methods.java:22)
+	at com.pageobjects.Enter_Vehicle_DataPage.enter_VechicleData(Enter_Vehicle_DataPage.java:84)
+	at com.insurance_calaculation_motorcycle.EndtoEnd_Test_Motorcycle.insurance_Calculate(EndtoEnd_Test_Motorcycle.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Cleaning up unclosed ZipFile for archive C:\Users\admin\eclipse-workspace\Training.insuranceCalculator\src\test\resources\testData\Vehicle_Insurance_Calculator_TestData.xlsx
+Cleaning up unclosed ZipFile for archive C:\Users\admin\eclipse-workspace\Training.insuranceCalculator\src\test\resources\testData\Vehicle_Insurance_Calculator_TestData.xlsx
+Cleaning up unclosed ZipFile for archive C:\Users\admin\eclipse-workspace\Training.insuranceCalculator\src\test\resources\testData\Vehicle_Insurance_Calculator_TestData.xlsx
+Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 42435
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 27, 2022 7:40:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="insurance_Calculate[{Insurant_Country=Sweden, Vehicle_Annual_Mileage=100.0, Insurant_Firstname=Seema, Insurant_Lastname=NNNN, Producy_Damageinsurance=Partial Coverage, Vehicle_Date_Of_Manufacture=09/04/2001, Insurant_Hobby=Speeding,Other, Product_Start_Date=12/12/2025, priceValidation_Platinum=1379.0, Product_Optionalproduct=Euro Protection, Vehicle_Eng_Performance=900.0, Vehicle_Make=Volvo, Vehicle_List_Price=888.0, priceValidation_Silver=702.0, priceValidation_Ultimate=2622.0, Inusrant_Gender=Female, TC no=2.0, Vehicle_Model=Scooter, Insurant_DateofBirth=12/12/1997, Insurant_Occupation=Farmer, Vehicle_No_of_Seats_Motorcycle=2.0, Vehicle_CylinderCapcity=900.0, priceValidation_Gold=238.0, TC Name=Verify Insurance  premium for Volvo Scooter, Insurant_Zipcode=444061.0, Product_Insurancesum=20.000.000,00, select_Option=Gold, ?=?}](2)" classname="com.insurance_calaculation_motorcycle.EndtoEnd_Test_Motorcycle" time="23.178">
+    <failure message="value is not present in dropdown for WebElement:[[ChromeDriver: chrome on WINDOWS (0dea31cac65a6263e71a009dd64aa72f)] -&gt; id: numberofseatsmotorcycle]Value to be selected is:2.0" type="java.lang.Exception"><![CDATA[java.lang.Exception: value is not present in dropdown for WebElement:[[ChromeDriver: chrome on WINDOWS (0dea31cac65a6263e71a009dd64aa72f)] -> id: numberofseatsmotorcycle]Value to be selected is:2.0
+	at com.reusablecomponent.Common_Methods.selectDropdownOption(Common_Methods.java:22)
+	at com.pageobjects.Enter_Vehicle_DataPage.enter_VechicleData(Enter_Vehicle_DataPage.java:84)
+	at com.insurance_calaculation_motorcycle.EndtoEnd_Test_Motorcycle.insurance_Calculate(EndtoEnd_Test_Motorcycle.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 23509
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 27, 2022 7:42:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="insurance_Calculate[{Insurant_Country=Sweden, Vehicle_Annual_Mileage=100.0, Insurant_Firstname=Savali, Insurant_Lastname=NNNN, Producy_Damageinsurance=Partial Coverage, Vehicle_Date_Of_Manufacture=09/04/2001, Insurant_Hobby=Speeding,Other, Product_Start_Date=12/12/2027, priceValidation_Platinum=507.0, Product_Optionalproduct=Euro Protection, Vehicle_Eng_Performance=100.0, Vehicle_Make=Ford, Vehicle_List_Price=1000.0, priceValidation_Silver=87.0, priceValidation_Ultimate=967.0, Inusrant_Gender=Female, TC no=3.0, Vehicle_Model=Moped, Insurant_DateofBirth=12/12/1998, Insurant_Occupation=Farmer, Vehicle_No_of_Seats_Motorcycle=2.0, Vehicle_CylinderCapcity=100.0, priceValidation_Gold=238.0, TC Name=Verify Insurance premium for Ford Moped, Insurant_Zipcode=444061.0, Product_Insurancesum=2.000.000,00, select_Option=Ultimate, ?=?}](3)" classname="com.insurance_calaculation_motorcycle.EndtoEnd_Test_Motorcycle" time="22.692">
+    <failure message="value is not present in dropdown for WebElement:[[ChromeDriver: chrome on WINDOWS (aca4223860e91af422fcc348eaee00a1)] -&gt; id: numberofseatsmotorcycle]Value to be selected is:2.0" type="java.lang.Exception"><![CDATA[java.lang.Exception: value is not present in dropdown for WebElement:[[ChromeDriver: chrome on WINDOWS (aca4223860e91af422fcc348eaee00a1)] -> id: numberofseatsmotorcycle]Value to be selected is:2.0
+	at com.reusablecomponent.Common_Methods.selectDropdownOption(Common_Methods.java:22)
+	at com.pageobjects.Enter_Vehicle_DataPage.enter_VechicleData(Enter_Vehicle_DataPage.java:84)
+	at com.insurance_calaculation_motorcycle.EndtoEnd_Test_Motorcycle.insurance_Calculate(EndtoEnd_Test_Motorcycle.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 44372
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 27, 2022 7:43:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
